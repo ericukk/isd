@@ -31,6 +31,7 @@
     };
     nix-appimage = {
       url = "github:ralismark/nix-appimage";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
